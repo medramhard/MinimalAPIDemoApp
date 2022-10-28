@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="04fc8ab9-c76d-498f-872f-b6f63c9030ef" ChangeDateTime="09/23/2022 12:50:03">
+    <Property Name="ElementName" Value="[dbo].[People]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[Person]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="eeba825a-68b5-4086-afeb-f7f246cf02c8" ChangeDateTime="09/23/2022 12:50:29">
+    <Property Name="ElementName" Value="[dbo].[Addresses]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[Address]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6308fad8-a1f7-4b8e-991a-3bb2c152af1b" ChangeDateTime="09/23/2022 13:38:43">
+    <Property Name="ElementName" Value="[dbo].[spPerson_Insert]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[spPerson_Add]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d24801e1-f0e5-4b18-98db-ba233ff3bf37" ChangeDateTime="09/23/2022 14:20:56">
+    <Property Name="ElementName" Value="[dbo].[spAddress]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[spAddress_Delete]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="27830573-7b41-4cd9-8e11-971709c1c452" ChangeDateTime="09/23/2022 16:19:55">
+    <Property Name="ElementName" Value="[dbo].[spPerson_GetPersonAddresses]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[spPerson_GetPersonAddress]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b09e6b42-fdf2-4815-87ca-46dbab6b23c8" ChangeDateTime="09/23/2022 16:46:09">
+    <Property Name="ElementName" Value="[dbo].[spAddress_Add]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[spAddress_AddAndGetId]" />
+  </Operation>
+</Operations>
